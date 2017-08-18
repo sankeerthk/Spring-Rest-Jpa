@@ -6,6 +6,6 @@ import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 
 @Configuration
 @EnableWebMvc
-@ComponentScan
+@ComponentScan({"io.jpa.config","io.jpa.employee","io.jpa.*"})
 public class AppConfig {
 }
